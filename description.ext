@@ -1,0 +1,35 @@
+author = "Kingsley";
+OnLoadName = "WARSIM";
+OnLoadMission = "Experience a persistent world with progressive military careers. Go on deployment with your friends, get promoted through the ranks, train to be specialist roles and lots more!";
+//loadScreen = "splash.paa";
+disabledAI = 1;
+
+respawn = "BASE";
+respawnDelay = 20;
+respawnOnStart = -1;
+respawnTemplatesWest[] = {"MenuPosition","Revive"};
+
+reviveDelay = 10;
+reviveForceRespawnDelay = 5;
+reviveBleedOutDelay = 90;
+
+corpseManagerMode = 3;
+corpseLimit = 1;
+corpseRemovalMinTime = 60;
+corpseRemovalMaxTime = 300;
+
+wreckManagerMode = 3;
+wreckLimit = 1;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 300;
+
+class Header
+{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 60;
+};
+
+#include "ui\include.hpp"
+#include "core\cfgFunctions.hpp"
+#include "config\config.hpp"

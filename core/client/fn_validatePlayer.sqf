@@ -1,0 +1,1 @@
+[_this, "s_fnc_validatePlayer", false, false, true] call BIS_fnc_MP;
