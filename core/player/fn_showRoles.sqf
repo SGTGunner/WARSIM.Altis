@@ -1,3 +1,3 @@
-if (isServer) exitWith {};
-
-createDialog "GUI_Roles";
+if (local player) then {
+	createDialog "GUI_Roles";
+};

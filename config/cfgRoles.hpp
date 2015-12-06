@@ -50,7 +50,7 @@ class roles
 		{
 			name = "Spotter";
 			filename = "config\roles\west\spotter.html";
-			minXPRequired = 18000;
+			minXPRequired = 20000;
 			allowedLoadouts[] = {1,4,9};
 		};
 		class item8
