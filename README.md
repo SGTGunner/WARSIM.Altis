@@ -1,4 +1,4 @@
-# WARSIM_V2.Altis
+# WARSIM.Altis
 ## TODO List
 ### Roles
 - Save player role to database
