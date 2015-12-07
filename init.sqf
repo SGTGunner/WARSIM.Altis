@@ -11,10 +11,3 @@ waitUntil {time > 0};
 player setVariable ["profileName", profileName, true];
 player call f_fnc_validatePlayer;
 player addAction ["Roles", {call f_fnc_showRoles}];
-
-// Some change
-// Another change
-// Test
-// Test
-// Test 2
-// Test 3
