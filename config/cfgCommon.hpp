@@ -3,7 +3,8 @@ class common
 	debug = true;
 	fatigue = true;
 	startingXP = 0;
-	
+	startingBaseRadius = 2000;
+
 	class server
 	{
 		addon = "inidbi"; // Name of the @iniDBI addon folder, without the @ symbol
