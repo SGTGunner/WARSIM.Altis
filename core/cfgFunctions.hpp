@@ -15,6 +15,8 @@ class CfgFunctions
 			class dbRead {};
 			class dbWrite {};
 			class createGridMarkers {};
+			class spawnGridHandler {};
+			class drawStaticBases {};
 		};
 		class player
 		{
