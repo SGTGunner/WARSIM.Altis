@@ -4,7 +4,7 @@ _gridmarkers = [];
 while { true } do {
 	{deleteMarkerLocal _x;} count _gridmarkers;
 	_gridmarkers = [];
-	
+
 	{
 		if ( !((side _x) isEqualTo civilian) ) then {
 			_pos = getPosATL _x;
@@ -29,9 +29,9 @@ while { true } do {
 				_gridmarkers pushBack _nam;
 			};
 		};
-		
+
 		true
 	} count allUnits;
-	
+
 	sleep 10;
 };

@@ -1,4 +1,5 @@
-# WARSIM.Altis
+# WARSIM
+[![Build Status](https://travis-ci.org/jameslkingsley/WARSIM.Altis.svg)](https://travis-ci.org/jameslkingsley/WARSIM.Altis)
 ## TODO List
 ### Roles
 - Save player role to database
