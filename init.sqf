@@ -2,6 +2,8 @@ if (isServer || isDedicated) then {
 	// Server Execution
 	call compile preProcessFile (format ["\%1\init.sqf", ((missionConfigFile >> "CfgWarsim" >> "common" >> "server" >> "addon") call BIS_fnc_getCfgData)]);
 	call f_fnc_validateDatabase;
+	call f_fnc_drawStaticBases;
+	call f_fnc_spawnGridHandler;
 };
 
 // Client Execution
