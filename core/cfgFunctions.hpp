@@ -14,6 +14,7 @@ class CfgFunctions
 			class validateDatabase {};
 			class dbRead {};
 			class dbWrite {};
+			class createGridMarkers {};
 		};
 		class player
 		{
