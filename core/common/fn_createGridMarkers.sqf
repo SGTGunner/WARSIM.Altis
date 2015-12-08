@@ -17,7 +17,7 @@ for "_i" from 1 to (_radius / _gridSize) do {
 	_top = [_center select 0, (_center select 1) + _gridSize * _i];
 	_bottom = [_center select 0, (_center select 1) - _gridSize * _i];
 	_left = [(_center select 0) - _gridSize * _i, _center select 1];
-	_left = [(_center select 0) + _gridSize * _i, _center select 1];
+	_right = [(_center select 0) + _gridSize * _i, _center select 1];
 
 	{
 		_px = floor ((_x select 0) / 100);
