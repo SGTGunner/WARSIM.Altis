@@ -17,6 +17,7 @@ class CfgFunctions
 			class createGridMarkers {};
 			class spawnGridHandler {};
 			class drawStaticBases {};
+			class heldBy {};
 		};
 		class player
 		{
