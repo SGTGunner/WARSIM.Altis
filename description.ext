@@ -1,6 +1,6 @@
 author = "Kingsley";
 OnLoadName = "WARSIM";
-OnLoadMission = "Experience a persistent world with progressive military careers. Go on deployment with your friends, get promoted through the ranks, train to be specialist roles and lots more!";
+OnLoadMission = "Three factions fight to control territory across the island of Altis.";
 //loadScreen = "splash.paa";
 disabledAI = 1;
 
