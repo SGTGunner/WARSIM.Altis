@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jameslkingsley/WARSIM.Altis/master/assets/logo_black_web.png" width="256">
+</p>
 # WARSIM
 ## TODO List
 ### Roles
