@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jameslkingsley/WARSIM.Altis/master/assets/logo_blue_512.png" width="512">
+  <img src="https://raw.githubusercontent.com/jameslkingsley/WARSIM.Altis/master/assets/logo_blue_256.png" width="512">
 </p>
 # WARSIM
 ## TODO List
