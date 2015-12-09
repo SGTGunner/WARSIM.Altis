@@ -5,7 +5,7 @@
 		0: ARRAY - position to start from
 		1: SCALAR - radius to search for units
 		2: BOOLEAN - Include air units (defaults to false)
-	Returns: SIDE - side of the winning group (most units alive) - if no side is chosen, returns objNull
+	Returns: ARRAY in the format [side, count]
 	Example: _winningSide = [ (getPos player), 50 ] call f_fnc_heldBy;
 */
 
@@ -39,4 +39,4 @@ switch (_winner) do {
 	case (_guerCount): { _ret = RESISTANCE; };
 };
 
-_ret
+[_ret, _winner]
