@@ -14,35 +14,7 @@
     </a>
 </p>
 
-# WARSIM
-## TODO List
-### Roles
-- Save player role to database
-- Handle player XP in database
-- Apply role & loadout selected
-- Resign from role
-- Role display board in base
+**WARSIM** is a multiplayer game mode for <a href="http://arma3.com/">Arma 3</a>. Its core features are player persistence, dynamic missions and territory control. There are three factions made up of players - NATO, CSAT and the AAF. Each faction fights to control the most territory with added AI missions/attacks throughout to keep you on your toes. Players can setup observation posts and forward operating bases that generate territory, allowing that faction to deploy more assets further afield.
 
-### Armory
-- Build armory dialog from config
-- Save/Load loadouts to/from database
-
-### Groups
-- Implement Arma 3 group manager
-
-### Rally Points
-- Create mobile respawn positions
-- Can be destroyed
-- Only group leaders can place rally points
-- One active rally point per group
-- Only available to your group
-
-### Base Building
-- Very simple object placement
-- Save/Load objects from database
-
-### OP/FOB Creation
-- OPs generate territory around them
-- OPs get attacked often
-- FOBs generate more territory around them
-- FOBs get attacked less often
+#### Contributing
+You can help out with development by looking for bugs in the code base, or by contributing new features. To contribute something to WARSIM, simply fork this repository and submit your pull requests.
