@@ -16,4 +16,9 @@ class common
 			class markers { filename = "tblMarkers"; };
 		};
 	};
+
+	class grid
+	{
+		refreshRate = 5;
+	};
 };
