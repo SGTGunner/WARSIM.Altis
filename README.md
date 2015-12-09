@@ -4,13 +4,13 @@
 
 <p align="center">
 	<a href="https://github.com/jameslkingsley/WARSIM.Altis">
-    	<img src="https://img.shields.io/badge/Version-1.0.1-blue.svg" alt="WARSIM Version">
+    	<img src="https://img.shields.io/badge/version-1.0.1-blue.svg">
 	</a>
     <a href="https://forums.bistudio.com/topic/183392-warsim-persistent-military-careers-alpha/">
-        <img src="https://img.shields.io/badge/BIF-Thread-lightgrey.svg" alt="BIF Thread">
+        <img src="https://img.shields.io/badge/forum-thread-lightgrey.svg">
     </a>
 	<a href="https://github.com/jameslkingsley/WARSIM.Altis">
-		<img src="https://travis-ci.org/jameslkingsley/WARSIM.Altis.svg" alt="WARSIM Build">
+		<img src="https://travis-ci.org/jameslkingsley/WARSIM.Altis.svg">
 	</a>
 </p>
 
