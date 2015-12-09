@@ -12,6 +12,7 @@
     <a href="https://forums.bistudio.com/topic/183392-warsim-persistent-military-careers-alpha/">
         <img src="https://img.shields.io/badge/BIF-Thread-lightgrey.svg" alt="BIF Thread">
     </a>
+	[![Build Status](https://travis-ci.org/jameslkingsley/WARSIM.Altis.svg)](https://travis-ci.org/jameslkingsley/WARSIM.Altis)
 </p>
 
 **WARSIM** is a multiplayer game mode for <a href="http://arma3.com/">Arma 3</a>. Its core features are player persistence, dynamic missions and territory control. There are three factions made up of players - NATO, CSAT and the AAF. Each faction fights to control the most territory with added AI missions/attacks throughout to keep you on your toes. Players can setup observation posts and forward operating bases that generate territory, allowing that faction to deploy more assets further afield.
