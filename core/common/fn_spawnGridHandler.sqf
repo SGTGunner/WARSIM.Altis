@@ -23,7 +23,13 @@
 					_block setMarkerShape "RECTANGLE";
 					_block setMarkerSize [50, 50];
 					_block setMarkerColor (format ["Color%1", (side _x)]);
-					_block setMarkerAlpha 0.5;
+					if ( [_text, _pos] call BIS_fnc_inTrigger ) then {
+						_winner = [_pos2, 100] call f_fnc_heldBy;
+						_winningSide = _winner select 0;
+						_winningCount = _winner select 1;
+						_alpha = (_winningCount / 100) * 10;
+						_block setMarkerAlpha _alpha;
+					};
 				} else {
 					// Marker found
 					if ( [_text, _pos] call BIS_fnc_inTrigger ) then {
