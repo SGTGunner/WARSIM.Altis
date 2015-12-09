@@ -1,0 +1,322 @@
+@font-face {
+	font-family: 'Noto Sans';
+	font-weight: 400;
+	font-style: normal;
+	src: url('../fonts/Noto-Sans-regular/Noto-Sans-regular.eot');
+	src: url('../fonts/Noto-Sans-regular/Noto-Sans-regular.eot?#iefix') format('embedded-opentype'),
+		local('Noto Sans'),
+		local('Noto-Sans-regular'),
+		url('../fonts/Noto-Sans-regular/Noto-Sans-regular.woff2') format('woff2'),
+		url('../fonts/Noto-Sans-regular/Noto-Sans-regular.woff') format('woff'),
+		url('../fonts/Noto-Sans-regular/Noto-Sans-regular.ttf') format('truetype'),
+		url('../fonts/Noto-Sans-regular/Noto-Sans-regular.svg#NotoSans') format('svg');
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-weight: 700;
+	font-style: normal;
+	src: url('../fonts/Noto-Sans-700/Noto-Sans-700.eot');
+	src: url('../fonts/Noto-Sans-700/Noto-Sans-700.eot?#iefix') format('embedded-opentype'),
+		local('Noto Sans Bold'),
+		local('Noto-Sans-700'),
+		url('../fonts/Noto-Sans-700/Noto-Sans-700.woff2') format('woff2'),
+		url('../fonts/Noto-Sans-700/Noto-Sans-700.woff') format('woff'),
+		url('../fonts/Noto-Sans-700/Noto-Sans-700.ttf') format('truetype'),
+		url('../fonts/Noto-Sans-700/Noto-Sans-700.svg#NotoSans') format('svg');
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-weight: 400;
+	font-style: italic;
+	src: url('../fonts/Noto-Sans-italic/Noto-Sans-italic.eot');
+	src: url('../fonts/Noto-Sans-italic/Noto-Sans-italic.eot?#iefix') format('embedded-opentype'),
+		local('Noto Sans Italic'),
+		local('Noto-Sans-italic'),
+		url('../fonts/Noto-Sans-italic/Noto-Sans-italic.woff2') format('woff2'),
+		url('../fonts/Noto-Sans-italic/Noto-Sans-italic.woff') format('woff'),
+		url('../fonts/Noto-Sans-italic/Noto-Sans-italic.ttf') format('truetype'),
+		url('../fonts/Noto-Sans-italic/Noto-Sans-italic.svg#NotoSans') format('svg');
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-weight: 700;
+	font-style: italic;
+	src: url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.eot');
+	src: url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.eot?#iefix') format('embedded-opentype'),
+		local('Noto Sans Bold Italic'),
+		local('Noto-Sans-700italic'),
+		url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.woff2') format('woff2'),
+		url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.woff') format('woff'),
+		url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.ttf') format('truetype'),
+		url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans') format('svg');
+}
+
+body {
+	background-color: #fff;
+	padding:50px;
+	font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#727272;
+	font-weight:400;
+	height: 100%;
+	margin: 0 auto;
+	width: 1048px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#222;
+	margin:0 0 20px;
+}
+
+p, ul, ol, table, pre, dl {
+	margin:0 0 20px;
+	font-style: none;
+}
+
+h1, h2, h3 {
+	line-height:1.1;
+}
+
+h1 {
+	font-size:28px;
+}
+
+h2 {
+	color:#393939;
+}
+
+h3, h4, h5, h6 {
+	color:#494949;
+}
+
+a {
+	color:#39c;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#069;
+}
+
+a small {
+	font-size:11px;
+	color:#777;
+	margin-top:-0.3em;
+	display:block;
+}
+
+a:hover small {
+	color:#777;
+}
+
+html {
+	height: 100%;
+	margin: 0 auto;
+	width: 1048px;
+}
+
+header {
+	height: 10%;
+	background: rgba(255,255,255,0.5); 
+}
+
+content {
+	height: 85%;
+	background: rgba(255,255,255,0.5);
+}
+
+section {
+	background: rgba(255,255,255,0.5);
+}
+
+.bgimg {
+	margin: 0 auto;
+	top: 0;
+	height: 955px;
+	background: rgba(255,255,255,0.5);
+}
+
+article {
+	display: block;
+	border: 1px solid grey;
+    margin: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 1048px;
+	height: auto;
+    background: rgba(255,255,255,0.75);
+}
+
+aside {
+    display: table-cell;
+    width: 350px;
+	height: 100%;
+	padding-top: 5px;
+}
+
+aside section {
+	display: block;
+    width: 50%;
+	height: 100%;
+    background: rgba(255,255,255,0.75);
+    border: 1px solid grey;
+}
+
+footer {
+	height: 5%;
+	background: rgba(25,25,25,0.5);
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.125em;
+}
+
+footer p {
+	padding: 15px;
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+
+video {
+	display: block;
+}
+
+nav {
+    display: block;
+    background: rgba(25,25,25,0.5);
+    color: #FFFFFF;
+    height: 40px;
+    width: 1048px;
+}
+
+nav ul, nav li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    background: rgba(25,25,25,0.5);
+    list-style: none;
+    width: 100%;
+}
+
+nav li {
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+nav a {
+    background: rgba(25,25,25,0.5);
+	color: #FFFFFF;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;    
+}
+
+nav li:hover a {
+    background: rgba(0,0,0,0.75);
+}
+
+#submenu {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+	visibility: hidden;
+	z-index: 1;
+}
+
+li:hover ul#submenu {
+	opacity: 1;
+	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+	visibility: visible;
+}
+
+#submenu li {
+	float: none;
+	width: 100%;
+}
+
+#submenu a:hover {
+	background: rgba(0,0,0,0.75);
+}
+#submenu a {
+	background: rgba(25,25,25,0.5);
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after, .clearfix:before {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+@media screen and (max-device-width: 800px) {
+	html {
+		background: url() #000 no-repeat center center fixed;
+	}
+	#bgvid {
+		display: none;
+	}
+}
+
+.banner{
+	padding: 0 auto;
+}
+
+.banner img{
+	display: block;
+	margin: auto;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+}
+
+.wrapper {
+	margin: 0 auto;
+	height: 100%;
+}
+
+.columnLeft {
+    display: table-cell;
+    width: 685px;
+    float: left;
+	padding: 5px;
+	margin-left: 12px;
+}
+
+.columnRight {
+    display: table-cell;
+    width: 310px;
+    float: left;
+	padding: 5px;
+	margin-right: 12px;
+}

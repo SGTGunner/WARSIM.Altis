@@ -1,62 +1,91 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>WARSIM by jameslkingsley</title>
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>WARSIM</title>
+    <meta name="description" content="An ArmA 3 MP Mission Modification.">
+    <link rel="stylesheet" href="css/stylesheet2.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script 
+            src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+        </script>
     <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>WARSIM</h1>
-        <p>WARSIM is a persistent, military game mode that utilizes the entire island with all factions and vehicles.</p>
-
-        <p class="view"><a href="https://github.com/jameslkingsley/WARSIM.Altis">View the Project on GitHub <small>jameslkingsley/WARSIM.Altis</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/jameslkingsley/WARSIM.Altis/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/jameslkingsley/WARSIM.Altis/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/jameslkingsley/WARSIM.Altis">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <p align="center">
-  <img src="https://raw.githubusercontent.com/jameslkingsley/WARSIM.Altis/master/assets/logo_blue_512.png" width="256">
-</p>
-
-<p align="center">
-    <a href="https://github.com/jameslkingsley/WARSIM.Altis">
-        <img src="https://img.shields.io/badge/Version-1.0.1-blue.svg" alt="WARSIM Version">
-    </a>
-    <a href="https://github.com/jameslkingsley/WARSIM.Altis/issues">
-        <img src="https://img.shields.io/github/issues-raw/jameslkingsley/WARSIM.Altis.svg?label=Issues" alt="WARSIM Issues">
-    </a>
-    <a href="https://forums.bistudio.com/topic/183392-warsim-persistent-military-careers-alpha/">
-        <img src="https://img.shields.io/badge/BIF-Thread-lightgrey.svg" alt="BIF Thread">
-    </a>
-</p>
-
-<p><strong>WARSIM</strong> is a multiplayer game mode for <a href="http://arma3.com/">Arma 3</a>. Its core features are player persistence, dynamic missions and territory control. There are three factions made up of players - NATO, CSAT and the AAF. Each faction fights to control the most territory with added AI missions/attacks throughout to keep you on your toes. Players can setup observation posts and forward operating bases that generate territory, allowing that faction to deploy more assets further afield.</p>
-
-<h2>
-<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h2>
-
-<p>You can help out with development by looking for bugs in the code base, or by contributing new features. <em>Please be aware that I have recently started from scratch so you may want to wait until I've implemented core features before contributing.</em> To contribute something to WARSIM, simply fork this repository and submit your pull requests. <strong>Also please respect the file structure and config setup - I won't consider any additions that are messy!</strong></p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/jameslkingsley">jameslkingsley</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
     
-  </body>
+    <!--[if lt IE 9]>
+        <script>
+            document.createElement('video');
+        </script>
+    <![endif]-->
+    <body>
+        <video autoplay loop poster="" id="bgvid">
+            <source src="vds/vid1.webm" type="video/webm">
+            <source src="vids/vid1.mp4" type="video/mp4">
+        </video>
+        <main>
+            <header>
+                <img src="img/icon/favicon-96x96.png" alt="WARSIM" />
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Media</a></li>
+                </ul>
+            </nav>
+            <section class="banner"><img src="img/WS_Banner.png" alt="Logo" /></section>
+			<div class="bgimg">
+				<article class="columnLeft">
+					<p align="center">
+						<img src="https://raw.githubusercontent.com/jameslkingsley/WARSIM.Altis/master/assets/logo_blue_512.png" width="256">
+					</p>
+					<h2>ABOUT</h2>
+					<p><b>WARSIM</b> is a multiplayer game mode for ArmA 3. Its core features are player persistence, dynamic missions and territory control. 
+					There are three factions made up of players - NATO, CSAT and the AAF. Each faction fights to control the most territory with added AI missions/attacks throughout to keep you on your toes. 
+					Players can setup observation posts and forward operating bases that generate territory, allowing that faction to deploy more assets further afield.
+					Go on deployment with your friends, get promoted through the ranks, train to be specialist roles and lots more! 
+					The rebels have gained territory across Altis.</p>
+					<ol type="I">
+							<li>Persistence - We save your position, loadout, role, rank, direction, deployments, everything.</li>
+							<li>Deployments - Go on deployment and spend your time at a forward operating base. You can't return to HQ until the job's done.</li>
+							<li>Rally Points - Create rally points for your group as you push into enemy territory. These are essentially mobile respawn positions only available to your group.</li>
+							<li>Roles - As you progress through the ranks, new roles open up for you.</li>
+						</ol>
+					There are lots more features to be added such as special forces missions and advanced roles but right now the basic roles and basic deployments is what I am focusing on for the alpha.
+					
+					<br><br><b>WARSIM</b> is currently in development and will soon be open for public testing in its alpha stage.</p>
+				</article>
+
+				<article class="columnLeft">
+					<h2>CONTRIBUTING</h2>
+					<p>You can help out with development by looking for bugs in the code base, or by contributing new features. 
+					Please be aware that I have recently started from scratch so you may want to wait until I've implemented core features before contributing. 
+					To contribute something to WARSIM, simply fork this repository and submit your pull requests. <b>Also please respect the file structure and config setup - I won't consider any additions that are messy!</b></p>
+				</article>
+				<aside>
+					<section class="columnRight">
+						<h1>WARSIM</h1>
+						<p>WARSIM is a persistent, military game mode that utilizes the entire island with all factions and vehicles.</p>
+
+						<p class="view"><a href="https://github.com/jameslkingsley/WARSIM.Altis">View the Project on GitHub </a><small>jameslkingsley/WARSIM.Altis</small></p>
+
+
+						<ul>
+							<li><a href="https://github.com/jameslkingsley/WARSIM.Altis/zipball/master">Download <strong>ZIP File</strong></a></li>
+							<li><a href="https://github.com/jameslkingsley/WARSIM.Altis/tarball/master">Download <strong>TAR Ball</strong></a></li>
+							<li><a href="https://github.com/jameslkingsley/WARSIM.Altis">View On <strong>GitHub</strong></a></li>
+						</ul>
+					</section>
+				</aside>
+			</div>
+			<br><br>
+
+            <footer>
+                <p>Copyright &copy; 2015 WARSIM. All rights reserved.</p>
+            </footer>
+        </main>
+    </body>
 </html>
